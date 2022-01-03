@@ -8,6 +8,7 @@ namespace Project1
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private int nb;
 
         public Game1()
         {
@@ -20,6 +21,7 @@ namespace Project1
         {
             // TODO: Add your initialization logic here
             Window.Title = "Test";
+            nb = 0;
 
             base.Initialize();
         }
